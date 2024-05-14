@@ -1,0 +1,4 @@
+[flake8]
+exclude = .git, __pycache__, .tox, python_library_template/templates/
+max-line-length = 88
+extend-ignore = E722, E203
