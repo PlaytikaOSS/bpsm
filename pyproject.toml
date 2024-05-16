@@ -42,16 +42,6 @@ pre-commit = "<3.6"
 distlib = "^0.3.8"
 platformdirs = "^4.2.1"
 
-[[tool.poetry.source]]
-name = "default"
-url = "https://artifactory.playticorp.com/artifactory/api/pypi/pypi.org/simple"
-default = true
-
-[[tool.poetry.source]]
-name = "private"
-url = "https://artifactory.playticorp.com/artifactory/api/pypi/pip/simple"
-secondary = true
-
 [tool.ruff]
 # Also format jupyter notebooks.
 extend-include = ["*.ipynb"]
